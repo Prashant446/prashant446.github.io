@@ -1,0 +1,10 @@
+.content-wrap .info{
+  flex-direction: column;
+}
+.content-wrap #details img{
+	width: 30rem;
+	border-radius: 10%;
+}
+.content-wrap #details .info{
+  padding: 2rem 0 0 2rem;
+}
