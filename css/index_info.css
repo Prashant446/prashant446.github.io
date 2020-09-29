@@ -1,10 +1,19 @@
 .content-wrap .info{
   flex-direction: column;
 }
-.content-wrap #details img{
+.content-wrap img{
 	width: 30rem;
 	border-radius: 10%;
 }
-.content-wrap #details .info{
-  padding: 2rem 0 0 2rem;
+.content-wrap  .info{
+  padding: 2rem 2rem;
+}
+@media screen and (max-width: 100rem){
+  .content-wrap .info{
+    padding: 2rem 0;
+  }
+  .content-wrap .info *{
+    justify-content: center;
+    text-align: center;
+  }
 }
