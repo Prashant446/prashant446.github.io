@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
     crossorigin="anonymous" />
+  <script src="js/base-pre.js"></script>
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/index_info.css">
 </head>
@@ -21,8 +22,10 @@
     <nav class="nav">
       <div class="container">
         <div class="nav-wrap">
-          <a class="nav-home" href="">Prashant</a>
-          <input type="checkbox" id="menu-toggle">
+          <div class="nav-home">
+            <a href="">Prashant</a>
+          </div>
+          <input type="checkbox" id="menu-toggle" class="no-show">
           <ul class="nav-list">
             <!-- <li class="nav-item">
               <a href="/about">About</a>
@@ -35,7 +38,10 @@
             </li>
           </ul>
           <!-- <div class="nav-mob"> -->
-          <i class="fas fa-adjust"></i>
+          <label for="theme-switch">
+            <i class="fas fa-adjust theme-button"></i>
+            <input type="checkbox" id="theme-switch" class="no-show">
+          </label>
           <label for="menu-toggle"><i class="fas fa-bars bars"></i></label>
           <!-- </div> -->
         </div>
@@ -57,17 +63,10 @@
           </div>
         </div>
         <div class="content centered">
-          <ul class="cont-list">
-            <li class="cont-item">
-              <a href="https://github.com/Prashant446/"><i class="fab fa-github"></i></a>
-            </li>
-            <li class="cont-item">
-              <a href="https://www.facebook.com/Prashant446/"><i class="fab fa-facebook-square"></i></a>
-            </li>
-            <li class="cont-item">
-              <a href="https://www.linkedin.com/in/prashant446"><i class="fab fa-linkedin"></i></a>
-            </li>
-          </ul>
+          <a href="mailto:praskr@cse.iitk.ac.in" class="cont-item"><i class="fas fa-envelope"></i></a>
+          <a href="https://github.com/Prashant446/" class="cont-item"><i class="fab fa-github"></i></a>
+          <a href="https://www.facebook.com/Prashant446/" class="cont-item"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://www.linkedin.com/in/prashant446" class="cont-item"><i class="fab fa-linkedin"></i></a>
         </div>
       </div>
     </section>
@@ -77,6 +76,7 @@
   </div>
   </footer>
   </div>
+  <script src="js/base-post.js"></script>
 </body>
 
 </html>
