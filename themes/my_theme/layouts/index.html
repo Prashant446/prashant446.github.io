@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="container centered">
+  <div class="content centered">
+    <img id="dp" src="{{ relURL .Site.Params.dp }}" alt="A Funny Character" />
+    <div class="info">
+      <h1>{{ .Site.Params.Name }}</h1>
+      <h2>{{ .Site.Params.Place }}</h2>
+      <p>{{ .Site.Params.Desc }}</p>
+    </div>
+  </div>
+  <div class="content centered">
+    {{ range .Site.Menus.social }}
+    <div class="cont-item">
+      <a href="{{ .URL }}" title="{{ .Name }}">{{ .Pre }}</a>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

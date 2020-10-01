@@ -1,13 +1,14 @@
 .content-wrap .info{
   flex-direction: column;
+  padding: 0 2rem;
 }
-.content-wrap img{
+.content-wrap #dp{
   width: 100%;
   max-width: 30rem;
 	border-radius: 10%;
 }
-.content-wrap  .info{
-  padding: 2rem 2rem;
+.content-wrap .info h1, .content-wrap .info h2{
+  margin: 0;
 }
 .content .cont-item{
   font-size: 4rem;

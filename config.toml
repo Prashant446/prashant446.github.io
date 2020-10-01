@@ -1,0 +1,36 @@
+baseURL = "https://www.cse.iitk.ac.in/users/praskr/"
+languageCode = "en-us"
+title = "Prashant"
+theme = "my_theme"
+googleAnalytics = "UA-179109663-1"
+canonifyURLs = true
+[params]
+    description = "My site description"
+    dp = "images/dp.jpg"
+    name = "Prashant Kumar"
+    place = "Indian Institute of Technology Kanpur"
+    desc = "I am a third year undergraduate of CSE department at IIT Kanpur. I love learning new things and using them to build something. My hobbies include playing football, listening to music, watching anime, and playing video games. Sometimes I find myself reading books on random topics and getting interested in random things. Some of my constant academic interests are Physics, learning random stuffs about computers, and lately robotics."
+
+[[menu.main]]
+    name = "Blog"
+    url = "/blog"
+[[menu.main]]
+    name = "Resume"
+    url = "https://drive.google.com/file/d/1bVPZSzlIMWO12Cs0D8IMzWpsXCRhm_iP/view?usp=sharing"
+
+[[menu.social]]
+    name = "Mail"
+    url = "mailto:praskr@cse.iitk.ac.in"
+    pre = "<i class='fas fa-envelope'></i>"
+[[menu.social]]
+    name = "GitHub"
+    url = "https://github.com/Prashant446/"
+    pre = "<i class='fab fa-github'></i>"
+[[menu.social]]
+    name = "Facebook"
+    url = "https://www.facebook.com/Prashant446/"
+    pre = "<i class='fab fa-facebook-square'></i>"
+[[menu.social]]
+    name = "Linkedin"
+    url = "https://www.linkedin.com/in/prashant446"
+    pre = "<i class='fab fa-linkedin'></i>"

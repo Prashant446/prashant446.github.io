@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="container">
+  <h1>{{ .Title }}</h1>
+  <div class="post-head">
+    <p>{{ .Site.Params.Author }}</p>
+    <p><i class="fas fa-calendar"></i><time>{{ .PublishDate.Format "January 2, 2006" }}</time> |
+      <i class="fas fa-clock"></i>{{ .ReadingTime }} {{ if eq .ReadingTime 1 }} minute {{ else }} minutes {{ end }}</p>
+    {{ range $idx, $category := .Params.categories }}
+    {{- if ne $idx 0 }}, {{ else }} <i class="fas fa-folder"></i> {{ end }}
+    <a href="{{ "categories/" | relURL }}{{ $category | urlize }}">{{ $category }}</a>
+    {{- end }}
+  </div>
+  {{ .Content }}
+</div>
+{{ end }}

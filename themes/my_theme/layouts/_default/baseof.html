@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{- partial "head.html" . -}}
+
+<body>
+    <div class="sitewrap">
+        {{- partial "header.html" . -}}
+        <main class="content-wrap">
+            {{- block "main" . }}{{- end }}
+        </main>
+        {{- partial "footer.html" . -}}
+    </div>
+    <script src="{{ absURL "js/base-post.js" }}"></script>
+</body>
+
+</html>
