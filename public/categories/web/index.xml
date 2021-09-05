@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>web on Prashant</title>
-    <link>https://www.cse.iitk.ac.in/users/praskr/categories/web/</link>
+    <link>https://prashant446.github.io/categories/web/</link>
     <description>Recent content in web on Prashant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Oct 2020 11:20:26 +0530</lastBuildDate><atom:link href="https://www.cse.iitk.ac.in/users/praskr/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Oct 2020 11:20:26 +0530</lastBuildDate><atom:link href="https://prashant446.github.io/categories/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I made my blog</title>
-      <link>https://www.cse.iitk.ac.in/users/praskr/blog/2020/my-blog/</link>
+      <link>https://prashant446.github.io/blog/2020/my-blog/</link>
       <pubDate>Thu, 01 Oct 2020 11:20:26 +0530</pubDate>
       
-      <guid>https://www.cse.iitk.ac.in/users/praskr/blog/2020/my-blog/</guid>
+      <guid>https://prashant446.github.io/blog/2020/my-blog/</guid>
       <description>After years of procrastinating I finally made my personal website, thanks to this boring pandemic life. One of the most important things for me was to build it from scratch with minimal use of frameworks. I wrote almost all of css and js myself and once again realized how much of a pain frontend development is. I ended up using hugo for static site generation and it&amp;rsquo;s amazing! I write posts in markdown and hugo uses my predefined templates to convert them into html and organize them appropriately.</description>
     </item>
     
